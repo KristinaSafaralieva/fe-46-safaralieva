@@ -78,7 +78,7 @@ main {
 
 }
 
-.avatar {
+.about-me_avatar_img {
     border-radius: 100%;
     width: 150px;
     height: 150px;
@@ -91,41 +91,36 @@ main {
     margin: 50px auto;
 }
 
-.texp-p {
-    margin: 30px;
-    padding: 30px;
-}
-
-.social-item {
+.socials_item {
     margin: 5px 0;
 }
 
-.link {
+.socials_item_link {
     color: #ffffff;
     display: inline-flex;
     align-items: center;
 }
 
-.social-icon {
+.socials_item_link_icon {
     width: 32px;
     margin-right: 10px;
     border-radius: 100%;
 }
 
-.name {
+.name_text {
     padding: 50px 0 10px;
 }
 
-.wrapper_name {
+.skills_title, .experience_title {
     padding-bottom: 30px;
 }
 
-.items {
+.skills_items {
     display: flex;
     padding-top: 0px;
 }
 
-.item {
+.skills_items_item {
     width: 300px;
     padding: 30px;
     margin: 0px 50px 50px 50px;
