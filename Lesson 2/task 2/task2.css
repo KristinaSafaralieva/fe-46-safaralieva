@@ -66,8 +66,7 @@ select {
 } 
 
 .container {
-    width: 1170px;
-    height: 665px;
+    max-width: 1170px;
     margin: 0 auto;
 }
 
@@ -105,7 +104,7 @@ select {
     margin-top: 110px;
 }
 
-.items_item_img-wrapper {
+.item_img-wrapper {
     width: 92px;
     height: 92px;
     border: 6px solid #EC7979;
@@ -115,11 +114,11 @@ select {
     display: flex;
 }
 
-.items_item_img {
+.item_img {
     margin: auto;
 }
 
-.items_item_text-1 {
+.item_text-1 {
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
@@ -130,7 +129,7 @@ select {
     padding: 38px 0;
 }
 
-.items_item_text-2 {
+.item_text-2 {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
