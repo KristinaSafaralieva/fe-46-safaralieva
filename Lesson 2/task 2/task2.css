@@ -74,11 +74,12 @@ select {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
-    font-size: 36px;
+    font-size: 20px;
     line-height: 42px;
     text-align: center;
     color: #000000;
-    margin: 67px 0;
+    margin: 67px 0 50px 0;
+    text-transform: uppercase;
 }
 
 .about_separator {
@@ -104,10 +105,14 @@ select {
     margin-top: 110px;
 }
 
+.item {
+  margin: 0px 30px;
+}
+
 .item_img-wrapper {
     width: 92px;
     height: 92px;
-    border: 6px solid #EC7979;
+    border: 1px solid #EC7979;
     border-radius: 100px;
     margin: 0 auto 39px auto;
     align-items: center;
@@ -126,7 +131,7 @@ select {
     line-height: 33px;
     text-align: center;
     color: #000000;
-    padding: 38px 0;
+    margin-top: 38px;
 }
 
 .item_text-2 {
