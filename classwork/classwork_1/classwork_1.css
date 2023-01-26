@@ -1,0 +1,154 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+article > * + * {
+  margin-top: 1em;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+@import url();
+
+body {
+    font-family: fantasy;
+}
+
+.trusted_container {
+    width: 100%;
+}
+
+.trusted_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #191919;
+    padding: 236px 0 160px 0;
+}
+
+.trusted_header {
+    padding-bottom: 51px;
+    color: white;
+    max-width: 525px;
+}
+
+.trusted_header h2 {
+    color: aliceblue;
+    font-weight: 400px;
+    font-size: 24px;
+}
+
+.slider {
+    width: 100%;
+}
+
+.slider_main {
+    overflow: hidden;
+}
+
+.slider_images {
+    width: 100%;
+    display: flex;
+    padding: 51px 0;
+    transform: translateX(-10%);
+    transition: all ease-in-out 0.5s;
+}
+
+.slider_image {
+    min-width: 752px;
+    height: auto;
+    margin: 0 35px;
+}
+
+.slider_controls {
+    padding: 40px 0;
+}
+
+.slider_controls button {
+    width: 48px;
+    height: 48px;
+    padding: 0 16px;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 100%;
+    text-align: center;
+    cursor: pointer;
+    transition: all ease-in-out 0.5s;
+}
+
+.slider_controls button:hover {
+background: gray;
+}
+
+.slider_controls img {
+align-items: center;
+    }
+
+.trusted_footer {
+    padding: 57px;
+}
+
+.trusted_footer-text p {
+color: azure;
+font-size: 14px;
+line-height: 14px;
+text-align: center;
+}
+
+.trusted_footer-logos {
+    padding-top: 42px;
+    display: flex;
+}
+
+.trusted_footer-logos a {
+    margin: 0 20px;
+}
+
+.trusted_footer-logos a :hover {
+    filter: drop-shadow(10px 10px 15px red);
+    transition: all ease-in-out 0.5s;
+}
