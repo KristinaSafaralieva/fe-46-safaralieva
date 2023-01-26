@@ -80,6 +80,7 @@ select {
     color: #000000;
     margin: 67px 0 50px 0;
     text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 .about_separator {
@@ -98,6 +99,7 @@ select {
     text-align: center;
     color: #86878B;
     margin-top: 40px;
+    letter-spacing: 0.5px;
 }
 
 .items {
@@ -131,7 +133,7 @@ select {
     line-height: 33px;
     text-align: center;
     color: #000000;
-    margin-top: 38px;
+    margin-top: 60px;
 }
 
 .item_text-2 {
@@ -142,6 +144,7 @@ select {
     line-height: 21px;
     text-align: center;
     color: #000000;
-    margin-top: 8px;
+    margin-top: 40px;
+    letter-spacing: 0.5px;
 }
 
