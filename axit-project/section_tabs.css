@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway&display=swap');
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.tabs {
+    height: 40px;
+    display: flex;
+}
+
+.tab_active {
+    width: 203px;
+    height: auto;
+    border-top: 1px solid #C6CBCD;
+    border-left: 1px solid #C6CBCD;
+    border-right: 1px solid #C6CBCD;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.tab {
+    width: 184px;
+    height: auto;
+    border-bottom: 1px solid #C6CBCD;
+}
+
+.tab_none {
+    width: 600px;
+    height: auto;
+    border-bottom: 1px solid #C6CBCD;
+}
+
+.tabs_wrapper {
+    width: 70px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 10px;
+    margin: 0 auto;
+}
+
+.tabs_wrapper span {
+    font-family: 'Open Sans', sans-serif;;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+.rectangle {
+    width: 1170px;
+    height: auto;
+    border: 1px solid #C6CBCD;
+    border-top: none;
+    display: flex;
+}
+
+.rectangle_text-description {
+    max-width: 700px;
+}
+
+.text_title h3 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    align-items: center;
+    padding: 47px 30px 74px 100px;
+    color: #000000;
+    margin: 0;
+}
+
+.text_desc h5 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    margin: 0;
+    padding: 0 30px 27px 100px;
+}
+
+.button {
+    padding: 0 330px 45px 100px;
+}
+
+button {
+    width: 270px;
+    height: 58px;
+    background: #EC7979;
+}
+
+button span {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.rectangle_image {
+    width: 470px;
+    height: 500px;
+}
