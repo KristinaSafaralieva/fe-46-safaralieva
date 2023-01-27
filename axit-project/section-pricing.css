@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@400;700&display=swap');
+
+.section-pricing {
+    background-color: #F5F5F5;
+    padding: 50px 0;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.section-prising_header_title h2 {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    padding: 57px 0;
+}
+
+.separator {
+    width: 170px;
+    height: 0px;
+    border: 1px solid #EC7979;
+}
+
+.section-prising_header_desc h5 {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: block;
+    text-align: center;
+    color: #86878B;
+    margin: 40px auto 79px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+}
+
+.card_header {
+    background: #333333;
+}
+
+.card {
+    width: 370px;
+}
+
+.card_header {
+    color: #FFFFFF;
+}
+
+.card-active {
+    margin: -20px 30px 20px 30px;
+    box-shadow: 4px 4px 6px -1px #f3f3f3, 
+                -4px 4px 6px -1px #f3f3f3;
+}
+
+.card_header_level, .card_header_price, .card_header_desc {
+    border: 2px solid #F5F5F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card_header_level {
+    height: 60px;
+}
+
+.card_header_level h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    display: block;
+    text-transform: capitalize;
+}
+
+.card_header_price {
+    height: 100px;
+}
+
+.card_header_price h3 {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.card_header_desc h5 {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.card_header_desc {
+    height: 50px;
+}
+
+.card_footer_desc {
+    height: 50px;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    color: #86878B;
+    background: #FFFFFF;
+    border: 2px solid #F5F5F5;
+}

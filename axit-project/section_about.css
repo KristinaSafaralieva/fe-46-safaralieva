@@ -7,17 +7,18 @@
     margin: 0 auto;
 }
 
-.about_title {
+.about_title h2 {
     font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 36px;
     line-height: 42px;
     text-align: center;
     color: #000000;
-    margin: 67px 0 50px 0;
+    padding: 67px 0 50px 0;
     text-transform: uppercase;
     letter-spacing: 2px;
+    margin-top: 50px;
 }
 
 .separator {
@@ -27,10 +28,10 @@
     border: 1px solid #EC7979;
 }
 
-.about_text-desc {
+.about_text-desc h5 {
     font-family: 'Raleway', sans-serif;
     font-style: normal;
-    font-weight: 100;
+    font-weight: 400;
     font-size: 18px;
     line-height: 21px;
     text-align: center;
@@ -45,7 +46,8 @@
 }
 
 .item {
-  margin: 0px 30px;
+  margin: 0px 15px;
+  width: 370px;
 }
 
 .item_img-wrapper {
@@ -73,7 +75,7 @@
     margin: 60px auto 0;
 }
 
-.item_text {
+.item_text h5 {
     font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -81,7 +83,8 @@
     line-height: 21px;
     text-align: center;
     color: #000000;
-    margin-top: 40px;
+    margin: 40px auto 58px;
     letter-spacing: 0.5px;
+    width: 370px;
 }
 
