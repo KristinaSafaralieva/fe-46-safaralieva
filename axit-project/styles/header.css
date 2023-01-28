@@ -1,0 +1,43 @@
+.header {
+    background-color: #000000;
+}
+
+.header_wrapper {
+    display: flex;
+}
+
+.header_logo {
+    display: flex;
+    max-height: 31px;
+    margin: 22px 0;
+}
+
+.header_logo-ax {
+    width: 52px;
+    margin-right: 3px;
+}
+
+.header_logo-it {
+    max-width: 31px;
+}
+
+.header_nav-items {
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    margin-left: auto;
+}
+
+.nav-item {
+    width: 114px;
+    text-align: center;
+}
+
+.nav-item span {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: capitalize;
+}

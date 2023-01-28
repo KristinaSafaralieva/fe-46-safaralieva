@@ -3,19 +3,41 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="./reset.css" rel="stylesheet">
-        <link href="./section_banner.css" rel="stylesheet">
-        <link href="./section_socials.css" rel="stylesheet">
-        <link href="./section_tabs.css" rel="stylesheet">
-        <link href="./section_about.css" rel="stylesheet">
-        <link href="./section-pricing.css" rel="stylesheet">
+        <link href="./styles/main.css" rel="stylesheet">
         <title>Axit-project</title>
     </head>
     <body>
+        <header class="header">
+            <div class="container">
+                <div class="header_wrapper">
+                    <div class="header_logo">
+                        <img class="header_logo-ax" src="./logo/AXIT.png" alt="ax">
+                        <img class="header_logo-it" src="./logo/AXIT-2.png" alt="it">
+                    </div>
+                    <div class="header_nav-items">
+                        <div class="nav-item">
+                            <span>Features</span>
+                        </div>
+                        <div class="nav-item">
+                            <span>About</span>
+                        </div>
+                        <div class="nav-item">
+                            <span>Prising</span>
+                        </div>
+                        <div class="nav-item">
+                            <span>Reviews</span>
+                        </div>
+                        <div class="nav-item">
+                            <span>Contact</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
         <section class="banner">
             <div class="banner-blure">
                 <div class="container">
-                    <div class="banner_wripper">
+                    <div class="banner_wrapper">
                         <div class="banner-main">
                             <div class="banner-text">
                                 <div class="banner-text_logo">
@@ -38,75 +60,69 @@
                                 </button>
                             </div>
                         </div>
-                        <div class="banner-form">
-                            <div class="banner-form_user-info">
-                                <div class="banner-form_user-info_title">
+                        <form class="banner-form">
+                            <div class="user-infos">
+                                <div class="user-info_title">
                                     <h4>Try Your <span> FREE </span> Trial Today</h4>
                                 </div>
-                                <div class="user-info">
-                                    <p>Name</p>
-                                </div>
+                                <input class="user-info_input" type="text" placeholder="Name">
                                 <div class="line"></div>
-                                <div class="user-info">
-                                    <p>Email</p>
-                                </div>
+                                <input class="user-info_input" type="email" placeholder="Email">
                                 <div class="line"></div>
-                                <div class="user-info">
-                                    <p>Password</p>
-                                </div>
+                                <input class="user-info_input" type="password" placeholder="Password">
                                 <div class="line"></div>
                             </div>
-                            <div class="bunner-form_button">
+                            <button class="bunner-form_button" type="submit">
                                 <span>Get Started</span>
-                            </div>
-                        </div>
+                            </button>
+                        </form>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="section-socials">
+        <section class="socials">
             <div class="container">
-                <div class="section-socials_wrapper">
-                    <div class="section-socials_text">
-                        <div class="section-socials_text_title">
+                <div class="socials_wrapper">
+                    <div class="socials_text">
+                        <div class="socials_text_title">
                             <h4>Social Media</h4>
                         </div>
-                        <div class="section-socials_text_desc">
+                        <div class="socials_text_desc">
                             <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</h5>
                         </div>
                     </div>
-                    <div class="section-socials_icons">
-                        <div class="section-socials_icon">
+                    <div class="socials_icons">
+                        <div class="socials_icon">
                             <a href="https://www.facebook.com">
                                 <img src="./icons/facebook_icon.png" alt="facebook">
                             </a>
                         </div>
-                        <div class="section-socials_icon">
+                        <div class="socials_icon">
                             <a href="https://twitter.com/">
                                 <img src="./icons/twitter_icon.png" alt="twitter">
                             </a>
                         </div>
-                        <div class="section-socials_icon">
+                        <div class="socials_icon">
                             <a href="https://www.linkedin.com">
                                 <img src="./icons/linkedin_icon.png" alt="linkedin">
                             </a>
                         </div>
-                        <div class="section-socials_icon">
+                        <div class="socials_icon">
                             <a href="https://www.pinterest.com">
                                 <img src="./icons/pinterest_icon.png" alt="pinterest">
                             </a>
                         </div>
-                        <div class="section-socials_icon">
+                        <div class="socials_icon">
                             <a href="https://www.instagram.com">
                                 <img src="./icons/instagram_icon.png" alt="instagram">
                             </a>
                         </div>
-                        <div class="section-socials_icon">
+                        <div class="socials_icon">
                             <a href="https://github.com">
                                 <img src="./icons/github_icon.png" alt="github">
                             </a>
                         </div>
-                        <div class="section-socials_icon">
+                        <div class="socials_icon">
                             <a href="https://rss.com">
                                 <img src="./icons/rss_icon.png" alt="rss">
                             </a>
@@ -115,23 +131,26 @@
                 </div>
             </div>
         </section>
-        <section class="section-tabs">
+        <section class="tabs">
             <div class="container">
-                <div class="section-tabs_wrapper">
-                    <div class="tabs">
-                        <div class="tab tab_active">
-                            <div class="tabs_wrapper">
-                                <span>tab 1</span>
+                <div class="tabs_wrapper">
+                    <div class="tabs-items">
+                        <div class="tab">
+                            <div class="tab_wrapper">
+                                <input class="tab_radio" type="radio" id="tab1" name="tabs" value="tab1" checked>  
+                                <label class="tab_name" for="tab1">TAB 1</label>
                             </div>
                         </div>
                         <div class="tab">
-                            <div class="tabs_wrapper">
-                                <span>tab 2</span>
+                            <div class="tab_wrapper">
+                                <input class="tab_radio" type="radio" id="tab2" name="tabs" value="tab2">  
+                                <label class="tab_name" for="tab2">TAB 2</label>
                             </div>
                         </div>
                         <div class="tab">
-                            <div class="tabs_wrapper">
-                                <span>tab 3</span>
+                            <div class="tab_wrapper">
+                                <input class="tab_radio" type="radio" id="tab3" name="tabs" value="tab3">  
+                                <label class="tab_name" for="tab3">TAB 3</label>
                             </div>
                         </div>
                         <div class="tab_none"></div>
@@ -169,9 +188,9 @@
                 </div>
             </div>
         </section>
-        <section class="section-about">
+        <section class="about">
             <div class="container">
-                <div class="section-about_wrapper">
+                <div class="about_wrapper">
                     <div class="about">
                         <div class="about_title">
                             <h2>Why this is awesome</h2>
@@ -237,15 +256,15 @@
                 </div>
             </div>
         </section>
-        <section class="section-pricing">
+        <section class="pricing">
             <div class="container">
-                <div class="section-praicing_wrapper">
-                    <div class="section-pricing_header">
-                        <div class="section-prising_header_title">
+                <div class="praicing_wrapper">
+                    <div class="pricing_header">
+                        <div class="prising_header_title">
                             <h2>pricing options</h2>
                         </div>
                         <div class="separator"></div>
-                        <div class="section-prising_header_desc">
+                        <div class="prising_header_desc">
                             <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h5>
                         </div>
                     </div>

@@ -1,16 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@400;700&display=swap');
-
-.section-pricing {
+.pricing {
     background-color: #F5F5F5;
     padding: 50px 0;
 }
 
-.container {
-    max-width: 1170px;
-    margin: 0 auto;
-}
-
-.section-prising_header_title h2 {
+.prising_header_title h2 {
     font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -29,7 +22,7 @@
     border: 1px solid #EC7979;
 }
 
-.section-prising_header_desc h5 {
+.prising_header_desc h5 {
     font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 400;
