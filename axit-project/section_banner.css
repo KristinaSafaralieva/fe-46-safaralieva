@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@400;500;700&display=swap');
 
-.section-banner {
+.banner {
     background-image: url(./images/image.png);
     background-size: contain;
-    background-color: #FFFFFF;
-    background-repeat: no-repeat;
-    background-position: center;
-    max-height: 1026px;
+}
+
+.banner-blure {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
 }
 
 .container {
@@ -14,7 +16,7 @@
     margin: 0 auto;
 }
 
-.section-banner_wripper {
+.banner_wripper {
     display: flex;
 }
 
