@@ -6,6 +6,7 @@
     background-color: #FFFFFF;
     background-repeat: no-repeat;
     background-position: center;
+    max-height: 1026px;
 }
 
 .container {
@@ -69,6 +70,7 @@
     line-height: 21px;
     display: flex;
     align-items: center;
+    max-width: 270px;
     color: #FFFFFF;
 }
 
@@ -153,9 +155,10 @@
 }
 
 .line {
-    border: 1px solid #BDBDBD;
+    height: 1px;
+    background-color: #bdbdbd;
     margin-top: 16px;
-    margin-bottom: 33px;
+    margin-bottom: 36px;
 }
 
 .bunner-form_button span {

@@ -69,7 +69,7 @@
 }
 
 .rectangle_text-description {
-    max-width: 700px;
+    width: 700px;
 }
 
 .text_title h3 {
@@ -79,9 +79,10 @@
     font-size: 30px;
     line-height: 41px;
     align-items: center;
-    padding: 47px 30px 47px 100px;
+    padding: 42px 30px 42px 100px;
     color: #000000;
     margin-right: 0px;
+    margin-bottom: 27px;
 }
 
 .text_desc h5 {
@@ -93,7 +94,6 @@
     display: flex;
     align-items: center;
     color: #000000;
-    margin: 0;
     padding: 0 30px 27px 100px;
 }
 
