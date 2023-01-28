@@ -73,19 +73,19 @@
 }
 
 .text_title h3 {
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
     line-height: 41px;
     align-items: center;
-    padding: 47px 30px 74px 100px;
+    padding: 47px 30px 47px 100px;
     color: #000000;
-    margin: 0;
+    margin-right: 0px;
 }
 
 .text_desc h5 {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -97,23 +97,26 @@
     padding: 0 30px 27px 100px;
 }
 
-.button {
-    padding: 0 330px 45px 100px;
+.button button {
     width: 270px;
     height: 58px;
-    background: #EC7979;
+    background-color: #EC7979;
+    margin-left: 100px;
+    margin-bottom: 54px;
 }
 
-button span {
-    font-family: 'Open Sans';
+.button  button span {
+    font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
     line-height: 25px;
-    align-items: center;
-    text-align: center;
+    color: #ffffff;
     text-transform: capitalize;
-    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    
+    
 }
 
 .rectangle_image {
