@@ -90,15 +90,12 @@
     padding: 0 30px 27px 100px;
 }
 
-.button button {
+.tabs_button button {
     width: 270px;
     height: 58px;
     background-color: #EC7979;
     margin-left: 100px;
     margin-bottom: 54px;
-}
-
-.button  button span {
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -106,10 +103,6 @@
     line-height: 25px;
     color: #ffffff;
     text-transform: capitalize;
-    display: flex;
-    justify-content: center;
-    
-    
 }
 
 .rectangle_image {

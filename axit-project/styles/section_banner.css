@@ -18,27 +18,13 @@
     margin-right: 30px;
 }
 
-.banner-text_logo {
+.banner-content_logo {
     display: flex;
-    padding-top: 23px;
-    margin-top: 283px;
-    margin-bottom: 73px;
+    margin-top: 208px;
+    margin-bottom: 50px;
 }
 
-.banner-text_logo-AX img {
-    width: 102px;
-    height: 55px;
-    padding-right: 5px;
-
-}
-
-.banner-text_logo-IT img {
-    width: 63px;
-    height: 55px;
-    margin-top: 306px;
-}
-
-.text_title h1 {
+.banner-text_title h1 {
     font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -51,10 +37,10 @@
     width: 670px;
 }
 
-.banner-separator{
+.banner-separator {
     width: 170px;
-    height: 0px;
-    border: 1px solid #FFFFFF;
+    height: 1px;
+    background-color: #FFFFFF;
     margin: 55px 0 42px;
 }
 
@@ -70,6 +56,11 @@
     color: #FFFFFF;
 }
 
+.banner-button {
+    padding: 0;
+    margin: 0;
+}
+
 .banner-button button {
     box-sizing: border-box;
     background-color: transparent;
@@ -78,24 +69,21 @@
     width: 270px;
     height: 58px;
     margin-top: 46px;
-}
-
-.banner-button button span {
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
     line-height: 25px;
     text-transform: capitalize;
-    background-color: transparent;
     color: #FFFFFF;
 }
 
 .banner-form {
     width: 470px;
+    height: 450px;
     background: #FFFFFF;
     border-radius: 10px;
-    margin: 283px auto 293px;
+    margin: 208px auto 293px;
 }
 
 .user-infos {
@@ -103,18 +91,10 @@
     margin: 0 50px;
 }
 
-.bunner-form_button {
-    width: 470px;
-    height: 60px;
-    background: #EC7979;
-    border: none;
-    border-radius: 0px 0px 10px 10px;
-    margin-top: 30px;
-}
-
 .user-info_title {
-    margin-bottom: 45px;
-    padding: 33px 0;
+    margin-bottom: 22px;
+    padding: 29px 0;
+    text-align: center;
 }
 
 .user-info_title h4 {
@@ -128,8 +108,6 @@
     text-align: center;
     text-transform: uppercase;
     color: #333333;
-    padding: 33px;
-    margin-bottom: 45px;
 }
 
 .user-info_title h4 span {
@@ -142,11 +120,16 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 19px;
-    display: flex;
-    align-items: center;
     color: #BDBDBD;
     width: 100%;
     border: none;
+    border-bottom: 1px solid #bdbdbd;
+    padding: 14px 0;
+    margin-bottom: 20px;
+}
+
+.user-info_input:last-child {
+    margin-bottom: 0;
 }
 
 .user-info_input::placeholder {
@@ -158,18 +141,17 @@
     color: #BDBDBD;
 }
 
-.line {
-    height: 1px;
-    background-color: #bdbdbd;
-    margin-top: 16px;
-    margin-bottom: 36px;
-}
-
-.bunner-form_button span {
+.bunner-form_button {
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 15px;
     line-height: 20px;
     color: #FFFFFF;
+    width: 470px;
+    height: 60px;
+    background: #EC7979;
+    border: none;
+    border-radius: 0px 0px 10px 10px;
+    margin-top: 72px;
 }

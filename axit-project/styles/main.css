@@ -11,3 +11,8 @@
     max-width: 1170px;
     margin: 0 auto;
 }
+
+button:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
