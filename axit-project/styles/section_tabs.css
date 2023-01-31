@@ -15,7 +15,7 @@
 .tab_none {
     flex: 1 1;
     height: auto;
-    border-bottom: 1px solid #C6CBCD;
+    border-bottom: 1px solid #c6cbcd;
 }
 
 .tab_wrapper {
@@ -31,16 +31,16 @@
 }
 
 .tab_radio:checked + .tab_name {
-    border-top: 1px solid #C6CBCD;
-    border-left: 1px solid #C6CBCD;
-    border-right: 1px solid #C6CBCD;
+    border-top: 1px solid #c6cbcd;
+    border-left: 1px solid #c6cbcd;
+    border-right: 1px solid #c6cbcd;
     border-bottom: none !important;
-    border-radius: 5px 5px 0px 0px;   
+    border-radius: 5px 5px 0px 0px;
 }
 
 .tab_name {
     padding: 8px 16px;
-    font-family: 'Open Sans', sans-serif;;
+    font-family: "Open Sans", sans-serif;
     text-transform: uppercase;
     font-weight: 400;
     font-size: 14px;
@@ -50,13 +50,13 @@
     color: #333333;
     width: 100%;
     height: 40px;
-    border-bottom: 1px solid #C6CBCD;
+    border-bottom: 1px solid #c6cbcd;
 }
 
 .rectangle {
     width: 1170px;
     height: auto;
-    border: 1px solid #C6CBCD;
+    border: 1px solid #c6cbcd;
     border-top: none;
     display: flex;
 }
@@ -66,7 +66,7 @@
 }
 
 .text_title h3 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
@@ -79,7 +79,7 @@
 }
 
 .text_desc h5 {
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -93,16 +93,17 @@
 .tabs_button button {
     width: 270px;
     height: 58px;
-    background-color: #EC7979;
+    background-color: #ec7979;
     margin-left: 100px;
     margin-bottom: 54px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
     line-height: 25px;
     color: #ffffff;
     text-transform: capitalize;
+    border: 0px;
 }
 
 .rectangle_image {
