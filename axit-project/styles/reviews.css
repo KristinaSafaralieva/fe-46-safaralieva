@@ -14,7 +14,6 @@
 }
 
 .reviews_text_title h2 {
-    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 36px;
@@ -28,7 +27,6 @@
 }
 
 .reviews_text_desc h5 {
-    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -61,7 +59,6 @@
 }
 
 .reviews_card_item h5 {
-    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -73,7 +70,6 @@
 
 .reviews_card_users {
     display: flex;
-    flex-direction: row;
 }
 
 .card_users_img img {
@@ -94,7 +90,6 @@
 }
 
 .card_users_info-job h5 {
-    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;

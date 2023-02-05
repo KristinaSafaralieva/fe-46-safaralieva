@@ -1,16 +1,16 @@
-.banner-2 {
+.banner-mini {
     background-image: url(../images/image-banner-2.png);
     background-repeat: round;
     background-size: cover;
 }
 
-.banner-2_blure {
+.banner-mini_blure {
     width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, 0.5);
 }
 
-.banner-2_wrapper {
+.banner-mini_wrapper {
     width: 100%;
     padding: 50px 0;
     color: #FFFFFF;
@@ -19,12 +19,11 @@
     align-items: center;
 }
 
-.banner-2_title {
+.banner-mini_title {
     padding: 54px 0;
 }
 
-.banner-2_title h2 {
-    font-family: 'Raleway';
+.banner-mini_title h2 {
     font-style: normal;
     font-weight: 400;
     font-size: 36px;
@@ -32,19 +31,18 @@
     text-transform: uppercase;
 }
 
-.banner-2_desc {
+.banner-mini_desc {
     margin: 40px 0 73px 0;
 }
 
-.banner-2_desc h5 {
-    font-family: 'Raleway', sans-serif;
+.banner-mini_desc h5 {
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
 }
 
-.banner-2_button button {
+.banner-mini_button button {
     width: 370px;
     height: 58px;
     background-color: transparent;
