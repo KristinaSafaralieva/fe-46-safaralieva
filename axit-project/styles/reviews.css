@@ -1,0 +1,103 @@
+.reviews_wrapper {
+    padding: 50px auto 64px;
+}
+
+.reviews_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.reviews_text_title {
+    padding: 54px 0;
+}
+
+.reviews_text_title h2 {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.reviews_text_desc {
+    margin: 40px 0 83px;
+}
+
+.reviews_text_desc h5 {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #86878B;
+}
+
+.reviews_cards {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 64px;
+}
+
+.reviews_card_items {
+    max-width: 370px;
+    background: #E2E2E2;
+    border-radius: 10px;
+}
+
+.reviews_card_polygon {
+    width: 0; 
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 20px solid #E2E2E2;
+    margin-left: 70px;
+    margin-bottom: 46px;
+}
+
+.reviews_card_item h5 {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #86878B;
+    padding: 40px 15px;
+    text-align: center;
+}
+
+.reviews_card_users {
+    display: flex;
+    flex-direction: row;
+}
+
+.card_users_img img {
+    border-radius: 100%;
+    margin-right: 30px;
+}
+
+.card_users_info-name h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    text-transform: capitalize;
+    color: #000000;
+    padding: 10px 0;
+    margin-bottom: 15px;
+}
+
+.card_users_info-job h5 {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}

@@ -1,0 +1,25 @@
+footer {
+    background-color: #000000;
+}
+
+.footer_social-icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 42px;
+    padding-bottom: 34px;
+}
+
+.footer_copirait {
+    text-align: center;
+    padding-bottom: 27px;
+}
+
+.footer_copirait h5 {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 0.5);
+}
