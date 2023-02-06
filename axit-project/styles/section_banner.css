@@ -25,7 +25,6 @@
 }
 
 .banner-text_title h1 {
-    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 48px;
@@ -45,7 +44,6 @@
 }
 
 .banner-text_desc h5 {
-    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -95,7 +93,7 @@
 }
 
 .user-info_title {
-    margin-bottom: 22px;
+    margin-bottom: 29px;
     padding: 29px 0;
     text-align: center;
 }
@@ -127,7 +125,7 @@
     width: 100%;
     border: none;
     border-bottom: 1px solid #bdbdbd;
-    padding: 14px 0;
+    padding: 16px 0;
     margin-bottom: 20px;
 }
 
@@ -156,5 +154,5 @@
     background: #EC7979;
     border: none;
     border-radius: 0px 0px 10px 10px;
-    margin-top: 72px;
+    margin-top: 75px;
 }

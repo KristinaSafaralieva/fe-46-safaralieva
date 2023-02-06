@@ -1,5 +1,4 @@
 .about_title h2 {
-    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 36px;
@@ -12,15 +11,7 @@
     margin-top: 50px;
 }
 
-.separator {
-    width: 170px;
-    height: 0px;
-    margin: auto;
-    border: 1px solid #EC7979;
-}
-
 .about_text-desc h5 {
-    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -67,7 +58,6 @@
 }
 
 .item_text h5 {
-    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;

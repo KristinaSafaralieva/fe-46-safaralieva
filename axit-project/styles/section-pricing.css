@@ -4,7 +4,6 @@
 }
 
 .prising_header_title h2 {
-    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 36px;
@@ -16,14 +15,7 @@
     padding: 57px 0;
 }
 
-.separator {
-    width: 170px;
-    height: 0px;
-    border: 1px solid #EC7979;
-}
-
 .prising_header_desc h5 {
-    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -83,7 +75,6 @@
 }
 
 .card_header_price h3 {
-    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -94,7 +85,6 @@
 }
 
 .card_header_desc h5 {
-    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -111,7 +101,6 @@
 
 .card_footer_item {
     height: 50px;
-    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
