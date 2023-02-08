@@ -1,5 +1,9 @@
 .header {
     background-color: #000000;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    left: 0;
 }
 
 .header_wrapper {
@@ -7,7 +11,7 @@
 }
 
 .header_logo {
-    width: 183px;
+    max-width: 183px;
     height: auto;
 }
 

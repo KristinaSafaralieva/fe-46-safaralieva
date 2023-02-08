@@ -45,6 +45,7 @@
 .banner-mini_button button {
     width: 370px;
     height: 58px;
+    border: 2px solid #FFFFFF;
     background-color: transparent;
     color: inherit;
     font-family: 'Open Sans', sans-serif;

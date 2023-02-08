@@ -28,7 +28,7 @@
 
 .cards {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .card_header {
@@ -43,10 +43,10 @@
     color: #FFFFFF;
 }
 
-.card-active {
-    margin: -20px 30px 20px 30px;
-    box-shadow: 4px 4px 6px -1px #f3f3f3, 
-                -4px 4px 6px -1px #f3f3f3;
+.card:hover {
+    margin-top: -20px;
+    box-shadow: 4px 4px 6px -1px #767676, 
+                -4px 4px 6px -1px #767676;
 }
 
 .card_header_level, .card_header_price, .card_header_desc {

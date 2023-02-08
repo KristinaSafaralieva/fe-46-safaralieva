@@ -8,6 +8,7 @@
 
 .socials_text {
     margin-right: 50px;
+    max-width: 470px;
 }
 
 .socials_text_title h4 {
@@ -19,7 +20,6 @@
     display: flex;
     align-items: center;
     text-transform: capitalize;
-    max-width: 470px;
     margin-bottom: 18px;
     padding: 24px 0 12px;
     color: #333333;
@@ -32,7 +32,6 @@
     line-height: 21px;
     display: flex;
     align-items: center;
-    max-width: 470px;
     color: #86878B;
     margin-bottom: 18px;
 }
@@ -40,10 +39,12 @@
 .socials_icons {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    max-width: 600px;
+    flex-grow: 1;
 }
 
 .socials_icon a img {
     max-width: 70px;
     height: auto;
-    margin-right: 30px;
 }

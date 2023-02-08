@@ -23,13 +23,13 @@
 }
 
 .items {
-    display:flex;
+    display: flex;
+    justify-content: space-between;
     margin-top: 110px;
 }
 
 .item {
-  margin: 0px 15px;
-  width: 370px;
+  max-width: 370px;
 }
 
 .item_img-wrapper {
@@ -66,6 +66,5 @@
     color: #000000;
     margin: 40px auto 58px;
     letter-spacing: 0.5px;
-    width: 370px;
 }
 
