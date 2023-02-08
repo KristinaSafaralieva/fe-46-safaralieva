@@ -33,7 +33,6 @@
     align-items: center;
     text-transform: uppercase;
     color: #FFFFFF;
-    width: 670px;
 }
 
 .banner-separator {
@@ -88,7 +87,6 @@
 }
 
 .user-infos {
-    width: 390px;
     margin: 0 50px;
 }
 

@@ -42,6 +42,10 @@
     margin-bottom: 64px;
 }
 
+.reviews_card:hover {
+    margin-top: -20px;
+}
+
 .reviews_card_items {
     max-width: 370px;
     background: #E2E2E2;

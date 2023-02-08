@@ -42,6 +42,14 @@
 .form_user {
     display: flex;
     margin-bottom: 16px;
+    width: 100%;
+}
+
+.form_user_info {
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+    padding-right: 15px;
 }
 
 .form_user_info_input {
@@ -51,11 +59,16 @@
     font-size: 14px;
     line-height: 19px;
     color: #BDBDBD;
-    width: 571px;
     border: none;
     border-bottom: 1px solid #bdbdbd;
     padding: 16px 0;
     margin-bottom: 34px;
+    width: 100%;
+}
+
+.form_user_message {
+    width: 100%;
+    padding-left: 15px;
 }
 
 .form_user_message_input {
@@ -66,12 +79,12 @@
     font-size: 14px;
     line-height: 19px;
     color: #BDBDBD;
-    width: 571px;
     border: none;
     border-bottom: 1px solid #bdbdbd;
-    padding-bottom: 175px;
     padding-top: 16px;
     margin-bottom: 34px;
+    width: 100%;
+    height: calc(100% - 34px);
 }
 
 .form_button button {
