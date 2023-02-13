@@ -40,6 +40,7 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
+    text-align: center;
 }
 
 .banner-mini_button button {
@@ -56,4 +57,56 @@
     text-transform: capitalize;
     padding: 0;
     border-color: #FFFFFF;
+}
+
+@media screen and (max-width: 1024px) {
+    .banner-mini_title {
+        padding: 46px 0;
+    }
+    
+    .banner-mini_title h2 {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    
+    .banner-mini_desc {
+        margin: 32px 0;
+    }
+    
+    .banner-mini_desc h5 {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    
+    .banner-mini_button button {
+        width: 318px;
+        height: 58px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .banner-mini_wrapper {
+        padding: 0 0 58px;
+    }
+
+    .banner-mini_title h2 {
+        text-align: center;
+    }
+
+    .banner-mini_desc {
+        margin: 16px 0 66px;
+    }
+    
+    .banner-mini_desc h5 {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    
+    .banner-mini_button {
+        max-width: 100%;
+    }
+
+    .banner-mini_button button {
+        max-width: 100%;
+    }
 }

@@ -8,7 +8,7 @@
     </head>
     <body>
         <header class="header">
-            <div class="container">
+            <div class="header_container">
                 <div class="header_wrapper">
                     <div class="header_logo">
                         <img src="./logo/logo.png" alt="ax">
@@ -22,14 +22,39 @@
                                 <li><a href="#reviews">Reviews</a></li>
                                 <li><a href="#contact">Contact</a></li>
                             </ul>
+                        </div>
                     </nav>
+                    <div class="burger_button">
+                        <button class="sidebar_open-btn sidebar_button-active" type="button" onclick="onBurgerClick()">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </button>
+                        <button class="sidebar_close-btn" type="button" onclick="onBurgerClick()">
+                            <span></span>
+                            <span></span>
+                        </button>
+                    </div>    
                 </div>
             </div>
+            <aside class="sidebar_menu">
+                <nav class="header_burger-menu">
+                    <div class="sidebar_nav-item">
+                        <ul>
+                            <li><a href="#tabs">Features</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#pricing">Prising</a></li>
+                            <li><a href="#reviews">Reviews</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </aside>
         </header>
         <section class="banner">
             <div class="banner-blure">
                 <div class="container">
-                    <div class="banner_wrapper">
+                    <div class="banner_wrapper wrapper">
                         <div class="banner-main">
                             <div class="banner-content">
                                 <div class="banner-content_logo">
@@ -66,7 +91,7 @@
         </section>
         <section class="socials">
             <div class="container">
-                <div class="socials_wrapper">
+                <div class="socials_wrapper wrapper">
                     <div class="socials_text">
                         <div class="socials_text_title">
                             <h4>Social Media</h4>
@@ -117,7 +142,7 @@
         </section>
         <section class="tabs" id="tabs">
             <div class="container">
-                <div class="tabs_wrapper">
+                <div class="tabs_wrapper wrapper">
                     <div class="tabs-items">
                         <div class="tab">
                             <div class="tab_wrapper">
@@ -146,16 +171,16 @@
                                     <h3>Tabs with soft transitioning effect.</h3>
                                 </div>
                                 <div class="text_desc">
-                                    <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean<br> 
-                                        euismod<br> 
-                                        bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et<br> 
-                                        viverra<br> 
-                                        justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque<br> 
-                                        penatibus et magnis dis parturient montes.</h5>
+                                    <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                                        euismod
+                                        bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et
+                                        viverra
+                                        justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque 
+                                        penatibus et magnis dis parturient montes.
                                     <h5>
-                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aenean<br>
-                                        euismod<br>
-                                        bibendum laoreet.<br>
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aenean
+                                        euismod
+                                        bibendum laoreet.
                                     </h5>
                                 </div>
                                 <div class="tabs_button">
@@ -174,16 +199,16 @@
                                     <h3>Tabs 2nd.</h3>
                                 </div>
                                 <div class="text_desc">
-                                    <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean<br> 
-                                        euismod<br> 
-                                        bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et<br> 
-                                        viverra<br> 
-                                        justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque<br> 
-                                        penatibus et magnis dis parturient montes.</h5>
+                                    <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                                        euismod
+                                        bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et
+                                        viverra
+                                        justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque 
+                                        penatibus et magnis dis parturient montes.
                                     <h5>
-                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aenean<br>
-                                        euismod<br>
-                                        bibendum laoreet.<br>
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aenean
+                                        euismod
+                                        bibendum laoreet.
                                     </h5>
                                 </div>
                                 <div class="tabs_button">
@@ -202,16 +227,16 @@
                                     <h3>Tabs 3th.</h3>
                                 </div>
                                 <div class="text_desc">
-                                    <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean<br> 
-                                        euismod<br> 
-                                        bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et<br> 
-                                        viverra<br> 
-                                        justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque<br> 
-                                        penatibus et magnis dis parturient montes.</h5>
+                                    <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                                        euismod
+                                        bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et
+                                        viverra
+                                        justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque 
+                                        penatibus et magnis dis parturient montes.
                                     <h5>
-                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aenean<br>
-                                        euismod<br>
-                                        bibendum laoreet.<br>
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aenean
+                                        euismod
+                                        bibendum laoreet.
                                     </h5>
                                 </div>
                                 <div class="tabs_button">
@@ -228,9 +253,9 @@
         </section>
         <section class="about" id="about">
             <div class="container">
-                <div class="about_wrapper">
-                    <div class="about">
-                        <div class="about_title">
+                <div class="about_wrapper wrapper">
+                    <div class="about_text">
+                        <div class="about_text_title">
                             <h2>Why this is awesome</h2>
                         </div>
                         <div class="separator"></div>
@@ -248,10 +273,10 @@
                             </div>
                             <div class="item_text">
                                 <h5>
-                                    Lorem ipsum dolor sit amet, consectetur<br> 
-                                    adipiscing<br>
-                                    elit. Aenean euismod bibendum laoreet.<br>
-                                    Proin gravida dolor sit amet lacus<br>
+                                    Lorem ipsum dolor sit amet, consectetur 
+                                    adipiscing
+                                    elit. Aenean euismod bibendum laoreet.
+                                    Proin gravida dolor sit amet lacus
                                     accumsan et viverra.
                                 </h5>
                             </div>
@@ -265,10 +290,10 @@
                             </div>
                             <div class="item_text">
                                 <h5>
-                                    Lorem ipsum dolor sit amet, consectetur<br> 
-                                    adipiscing<br>
-                                    elit. Aenean euismod bibendum laoreet.<br>
-                                    Proin gravida dolor sit amet lacus<br>
+                                    Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing
+                                    elit. Aenean euismod bibendum laoreet.
+                                    Proin gravida dolor sit amet lacus
                                     accumsan et viverra.
                                 </h5>
                             </div>
@@ -282,10 +307,10 @@
                             </div>
                             <div class="item_text">
                                 <h5>
-                                    Lorem ipsum dolor sit amet, consectetur<br> 
-                                    adipiscing<br>
-                                    elit. Aenean euismod bibendum laoreet.<br>
-                                    Proin gravida dolor sit amet lacus<br>
+                                    Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing
+                                    elit. Aenean euismod bibendum laoreet.
+                                    Proin gravida dolor sit amet lacus
                                     accumsan et viverra.
                                 </h5>
                             </div>
@@ -296,7 +321,7 @@
         </section>
         <section class="pricing" id="pricing">
             <div class="container">
-                <div class="praicing_wrapper">
+                <div class="praicing_wrapper wrapper">
                     <div class="pricing_header">
                         <div class="prising_header_title">
                             <h2>pricing options</h2>
@@ -382,7 +407,7 @@
         </section>
         <section class="reviews" id="reviews">
             <div class="container">
-                <div class="reviews_wrapper">
+                <div class="reviews_wrapper wrapper">
                     <div class="reviews_text">
                         <div class="reviews_text_title">
                             <h2>what our customers are saying</h2>
@@ -457,13 +482,18 @@
                             </div>
                         </div>
                     </div>
+                        <div class="slider_controls">
+                                <button class="slider_controls_button slider_controls_button-active" type="button" onclick="onLeftArrowClick(this)"></button>
+                                <button class="slider_controls_button" type="button" onclick="onCenterArrowClick(this)"></button>
+                                <button class="slider_controls_button" type="button" onclick="onRightArrowClick(this)"></button>
+                        </div>
                 </div>
             </div>
         </section>
         <section class="banner-mini">
             <div class="banner-mini_blure">
                 <div class="container">
-                    <div class="banner-mini_wrapper">
+                    <div class="banner-mini_wrapper wrapper">
                     <div class="banner-mini_title">
                         <h2>STYLISH AXURE DESIGN</h2>
                     </div>
@@ -480,7 +510,7 @@
         </section>
         <section class="contact" id="contact">
             <div class="container">
-                <div class="contact_wrapper">
+                <div class="contact_wrapper wrapper">
                     <div class="contact_text">
                         <div class="contact_text_title">
                             <h2>contact us</h2>
@@ -554,7 +584,8 @@
                 </div>
             </div>
         </footer>
-        <script type="text/javascript" src="./script/tabs.js">
-        </script>
+        <script type="text/javascript" src="./script/sidebar_menu.js"></script>
+        <script type="text/javascript" src="./script/slider.js"></script>
+        <script type="text/javascript" src="./script/tabs.js"></script>
     </body>
 </html>

@@ -1,11 +1,15 @@
-.about_title h2 {
+.about_text {
+    margin: 0 auto;
+}
+
+.about_text_title h2 {
     font-style: normal;
     font-weight: 400;
     font-size: 36px;
     line-height: 42px;
     text-align: center;
     color: #000000;
-    padding: 67px 0 50px 0;
+    padding: 54px 0;
     text-transform: uppercase;
     letter-spacing: 2px;
     margin-top: 50px;
@@ -24,7 +28,8 @@
 
 .items {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
     margin-top: 110px;
 }
 
@@ -68,3 +73,93 @@
     letter-spacing: 0.5px;
 }
 
+@media screen and (max-width: 1024px) {
+    .about_wrapper {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .about_text_title h2 {
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+        width: 100%;
+        padding: 46px 0;
+    }
+    
+    .about_text-desc h5 {
+        font-size: 14px;
+        line-height: 16px;
+        margin-top: 32px;
+    }
+    
+    .items {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 66px;
+        max-width: 992px;
+    }
+    
+    .item {
+      max-width: 318px;
+    }
+    
+    .item_img-wrapper {
+        width: 80px;
+        height: 80px;
+        margin-bottom: 34px;
+    }
+    
+    .item_title {
+        font-size: 18px;
+        line-height: 25px;
+        padding: 28px 0;
+        margin-bottom: 17px;
+        margin-top: 0;
+    }
+    
+    .item_text h5 {
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+        color: #000000;
+        margin-bottom: 60px;
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .about_text_title h2 {
+        font-size: 18px;
+        line-height: 21px;
+        padding: 50px 0;
+        margin-top: 0;
+    }
+    
+    .about_text-desc h5 {
+        font-size: 13px;
+        line-height: 15px;
+        margin-top: 25px;
+    }
+    
+    .items {
+        margin-top: 84px;
+        max-width: 288px;
+    }
+    
+    .item {
+      max-width: 288px;
+    }
+
+    .item_title {
+        margin-bottom: 9px;
+    }
+    
+    .item_text h5 {
+        margin-bottom: 44px;
+    }
+
+    .item_text h5:last-child {
+        margin-bottom: 60px;
+    }
+}
