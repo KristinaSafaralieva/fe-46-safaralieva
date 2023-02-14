@@ -25,12 +25,8 @@
                         </div>
                     </nav>
                     <div class="burger_button">
-                        <button class="sidebar_open-btn sidebar_button-active" type="button" onclick="onBurgerClick()">
+                        <button class="sidebar_btn" type="button" onclick="onBurgerClick()">
                             <span></span>
-                            <span></span>
-                            <span></span>
-                        </button>
-                        <button class="sidebar_close-btn" type="button" onclick="onBurgerClick()">
                             <span></span>
                             <span></span>
                         </button>
@@ -38,7 +34,7 @@
                 </div>
             </div>
             <aside class="sidebar_menu">
-                <nav class="header_burger-menu">
+                <nav class="header_sidebar_menu">
                     <div class="sidebar_nav-item">
                         <ul>
                             <li><a href="#tabs">Features</a></li>
@@ -177,7 +173,7 @@
                                         viverra
                                         justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque 
                                         penatibus et magnis dis parturient montes.
-                                    <h5>
+
                                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aenean
                                         euismod
                                         bibendum laoreet.
@@ -205,7 +201,7 @@
                                         viverra
                                         justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque 
                                         penatibus et magnis dis parturient montes.
-                                    <h5>
+                               
                                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aenean
                                         euismod
                                         bibendum laoreet.
@@ -233,7 +229,7 @@
                                         viverra
                                         justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque 
                                         penatibus et magnis dis parturient montes.
-                                    <h5>
+                              
                                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aenean
                                         euismod
                                         bibendum laoreet.
@@ -483,9 +479,24 @@
                         </div>
                     </div>
                         <div class="slider_controls">
-                                <button class="slider_controls_button slider_controls_button-active" type="button" onclick="onLeftArrowClick(this)"></button>
-                                <button class="slider_controls_button" type="button" onclick="onCenterArrowClick(this)"></button>
-                                <button class="slider_controls_button" type="button" onclick="onRightArrowClick(this)"></button>
+                            <button
+                                class="slider_controls_button slider_controls_button-active"
+                                data-slider-position="0"
+                                type="button"
+                                onclick="onDotClick(this)">
+                            </button>
+                            <button
+                                class="slider_controls_button"
+                                data-slider-position="-33.33%"
+                                type="button"
+                                onclick="onDotClick(this)">
+                            </button>
+                            <button
+                                class="slider_controls_button"
+                                data-slider-position="-66.66%"
+                                type="button"
+                                onclick="onDotClick(this)">
+                            </button>
                         </div>
                 </div>
             </div>

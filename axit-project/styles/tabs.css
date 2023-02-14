@@ -91,6 +91,7 @@
     align-items: center;
     color: #000000;
     padding: 0 30px 27px 100px;
+    white-space: pre-line;
 }
 
 .tabs_button button {
@@ -162,10 +163,6 @@
         padding: 0;
     }
 
-    .text_desc h5:last-child {
-        padding-top: 16px;
-    }
-    
     .tabs_button button {
         width: 232px;
         margin-bottom: 50px;
@@ -297,10 +294,6 @@
     .text_desc {
         max-height: 180px;
         margin-bottom: 29px;
-    }
-
-    .text_desc h5:last-child {
-        padding-top: 15px;
     }
     
     .tabs_button button {
