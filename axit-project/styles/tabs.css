@@ -1,5 +1,5 @@
 .tabs {
-    margin-top: 118px;
+    margin-top: 99px;
 }
 
 .tabs-items {
@@ -91,6 +91,7 @@
     align-items: center;
     color: #000000;
     padding: 0 30px 27px 100px;
+    white-space: pre-line;
 }
 
 .tabs_button button {
@@ -110,4 +111,193 @@
 
 .rectengle_image img {
     height: 100%;
+}
+
+@media  screen and (max-width: 1024px) {
+    .tabs {
+        margin-top: 50px;
+    }
+
+    .tabs-items {
+        height: 39px;
+    }
+    
+    .tab {
+        width: 156px;
+    }
+
+    .tab_none {
+        height: 40px;
+    }
+    
+    .rectangle {
+        max-width: 992px;
+    }
+
+    .rectangle_text-description {
+        max-width: 594px;
+        margin-right: 26px;
+        margin-left: 85px;
+    }
+    
+    .text {
+        max-width: 594px;
+    }
+
+    .text_title h3 {
+        font-size: 24px;
+        line-height: 33px;
+        padding: 28px 68px 28px 0;
+        margin-bottom: 38px;
+    }
+    
+    .text_desc {
+        max-height: 112px;
+        margin-bottom: 38px;
+    }
+
+    .text_desc h5 {
+        font-size: 14px;
+        line-height: 16px;
+        display: flex;
+        padding: 0;
+    }
+
+    .tabs_button button {
+        width: 232px;
+        margin-bottom: 50px;
+        margin-left: 0;
+    }
+    
+    .rectengle_image  img {
+        max-width: 397px;
+        max-height: 385px;
+        margin-left: auto;
+        
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .rectangle_text-description {
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .rectangle_text-description {
+        max-width: 100%;
+    }
+
+    .rectengle_image  img {
+        max-height: 100%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .text_title h3 {
+        margin-bottom: 0;
+    }
+    
+    .text_desc {
+        max-height: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .text {
+        max-width: 394px;
+    }
+
+    .rectengle_image  img {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .text_title h3 {
+        font-size: 20px;
+        line-height: 29px;
+    }
+
+    .text_desc {
+        margin-bottom: 20px;
+    }
+
+    .text_desc h5 {
+        font-size: 13px;
+        line-height: 15px;
+    }    
+
+    .tabs_button button {
+        margin-bottom: 20px;
+        max-height: 50px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .rectengle_image  img {
+        display: none;
+    }
+
+    .rectangle_text-description {
+        margin: auto;
+    }
+
+    .text_title h3 {
+        text-align: center;
+        padding-right: 0;
+    }
+
+    .text_desc h5 {
+        text-align: center;
+    }    
+
+    .tabs_button {
+        text-align: center;
+    }
+}
+
+@media  screen and (max-width: 320px) {
+    .tabs {
+        margin-top: 41px;
+    }
+    
+    .tab {
+        width: 96px;
+    }
+
+    .tab_none {
+        display: none;
+    }
+    
+    .rectangle {
+        max-width: 288px;
+    }
+
+    .rectangle_text-description {
+        max-width: 243px;
+        margin: 0 21px 0 25px
+    }
+    
+    .text {
+        max-width: 243px;
+    }
+
+    .text_title h3 {
+        font-size: 18px;
+        line-height: 25px;
+        padding: 44px 0;
+        margin-bottom: 29px;
+        text-align: center;
+    }
+    
+    .text_desc {
+        max-height: 180px;
+        margin-bottom: 29px;
+    }
+    
+    .tabs_button button {
+        width: 243px;
+        margin-bottom: 30px;
+    }
 }

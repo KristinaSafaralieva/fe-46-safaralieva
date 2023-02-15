@@ -20,6 +20,11 @@ body {
     margin: 0 auto;
 }
 
+.wrapper {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
 button:hover {
     opacity: 0.8;
     cursor: pointer;
@@ -89,4 +94,26 @@ button:hover {
 .tooltip:hover:before,
 .tooltip:hover::after {
     opacity: 1;
+}
+
+@media screen and (max-width: 1024px) {
+    .container,
+    .header_container {
+        max-width: 992px;
+    }
+
+    .separator {
+        width: 142px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .container,
+    .header_container {
+        max-width: 288px;
+    }
+
+    .separator {
+        width: 134px;
+    }
 }

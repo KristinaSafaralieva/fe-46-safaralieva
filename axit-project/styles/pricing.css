@@ -1,6 +1,10 @@
 .pricing {
     background-color: #F5F5F5;
-    padding: 50px 0;
+    padding: 50px 0 30px;
+}
+
+.pricing_header {
+    margin: auto;
 }
 
 .prising_header_title h2 {
@@ -28,18 +32,24 @@
 
 .cards {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.card {
+    max-width: 370px;
+    min-width: 200px;
+    flex-grow: 1;
+    margin-bottom: 20px;
+}
+
+    
+.card:nth-child(2) {
+    margin: 0 10px;
 }
 
 .card_header {
     background: #333333;
-}
-
-.card {
-    width: 370px;
-}
-
-.card_header {
     color: #FFFFFF;
 }
 
@@ -54,6 +64,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
 .card_header_level {
@@ -112,4 +123,96 @@
     color: #86878B;
     background: #FFFFFF;
     border: 2px solid #F5F5F5;
+}
+
+@media screen and (max-width: 1024px) {
+    .prising_header_title h2 {
+        font-size: 24px;
+        line-height: 28px;
+        padding: 46px 0;
+    }
+    
+    .prising_header_desc h5 {
+        font-size: 14px;
+        line-height: 16px;
+        margin: 32px auto 50px;
+    }
+
+    .card {
+        max-width: 317px;
+    }
+
+    .card_header_level {
+        height: 53px;
+    }
+
+    .card_header_price {
+        height: 89px;
+    }
+
+    .card_header_desc {
+        height: 44px;
+    }
+
+    .card_footer_item {
+        height: 44px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .cards {
+        flex-wrap: wrap;
+    }
+
+    .card:nth-child(2) {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .pricing {
+        padding: 0;
+    }
+
+    .prising_header_desc h5 {
+        margin: 24px auto;
+    }
+
+    .card {
+        max-width: 288px;
+        margin-bottom: 27px;
+    }
+
+    .card_header_level h4 {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .card_header_price h3 {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    
+    .card_header_desc h5 {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .card_header_level {
+        height: 47px;
+    }
+
+    .card_header_price {
+        height: 78px;
+    }
+
+    .card_header_desc {
+        height: 39px;
+    }
+
+    .card_footer_item {
+        height: 39px;
+        font-size: 14px;
+        line-height: 16px;
+    }
 }

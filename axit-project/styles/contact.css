@@ -31,6 +31,7 @@
     font-size: 18px;
     line-height: 21px;
     color: #86878B;
+    text-align: center;
 }
 
 .contact_form {
@@ -98,4 +99,78 @@
     line-height: 25px;
     text-transform: capitalize;
     color: #FFFFFF;
+}
+
+@media screen and (max-width: 1024px) {
+    .contact_wrapper {
+        padding: 0 0 40px;
+    }
+
+    .contact_text_title {
+        padding: 46px 0;
+    }
+    
+    .contact_text_title h2 {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    
+    .contact_text_desc {
+        margin: 32px 0 61px;
+    }
+    
+    .contact_text_desc h5 {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .form_user {
+        margin-bottom: 16px;
+    }
+    
+    .form_user_info {
+        padding-right: 10px;
+    }
+
+    .form_user_message {
+        padding-left: 10px;
+    }
+
+    .form_button button {
+        width: 318px;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .form_user {
+        margin-bottom: 16px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .form_user_message {
+        padding-left: 0;
+    }
+
+    .form_user_message_input {
+        margin-bottom: 182px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .contact_text_title h2 {
+        text-align: center;
+    }
+    
+    .contact_text_desc {
+        margin: 24px 0 48px;
+    }
+    
+    .contact_text_desc h5 {
+        text-align: center;
+    }
+
+    .form_button button {
+        max-width: 288px;
+    }
 }
