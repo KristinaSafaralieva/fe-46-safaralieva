@@ -20,11 +20,6 @@ body {
     margin: 0 auto;
 }
 
-.wrapper {
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
 button:hover {
     opacity: 0.8;
     cursor: pointer;
