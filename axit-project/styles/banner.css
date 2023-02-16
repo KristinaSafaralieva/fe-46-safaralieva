@@ -12,6 +12,8 @@
 
 .banner_wrapper {
     display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .banner-main {
