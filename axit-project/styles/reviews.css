@@ -1,5 +1,5 @@
 .reviews_wrapper {
-    padding: 50px 0 64px;
+    padding: 50px 10px 64px;
 }
 
 .reviews_text {
@@ -52,6 +52,10 @@
 
 .reviews_card:nth-child(2) {
     margin: 0 10px;
+}
+
+.reviews_card:nth-child(2):hover {
+    margin-top: -20px;
 }
 
 .reviews_card_polygon {

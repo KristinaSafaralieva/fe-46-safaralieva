@@ -1,5 +1,5 @@
 .contact_wrapper {
-    padding: 50px 0;
+    padding: 50px 10px;
 }
 
 .contact_text {
@@ -103,7 +103,7 @@
 
 @media screen and (max-width: 1024px) {
     .contact_wrapper {
-        padding: 0 0 40px;
+        padding: 0 10px 40px;
     }
 
     .contact_text_title {
@@ -141,7 +141,7 @@
     }
 }
 
-@media screen and (max-width:576px) {
+@media screen and (max-width:768px) {
     .form_user {
         margin-bottom: 16px;
         display: flex;

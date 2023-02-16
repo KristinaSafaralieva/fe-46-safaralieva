@@ -2,6 +2,10 @@
     margin-top: 99px;
 }
 
+.tabs_wrapper {
+    margin: 0 10px;
+}
+
 .tabs-items {
     height: 40px;
     display: flex;
@@ -242,6 +246,11 @@
         margin: auto;
     }
 
+    .text {
+        margin: 0;
+        padding: 0 5px;
+    }
+
     .text_title h3 {
         text-align: center;
         padding-right: 0;
@@ -249,6 +258,7 @@
 
     .text_desc h5 {
         text-align: center;
+        white-space: inherit;
     }    
 
     .tabs_button {
@@ -273,15 +283,6 @@
         max-width: 288px;
     }
 
-    .rectangle_text-description {
-        margin: 0 21px 0 25px
-    }
-    
-    .text {
-        max-width: 243px;
-        margin: 0;
-    }
-
     .text_title h3 {
         font-size: 18px;
         line-height: 25px;
@@ -294,7 +295,7 @@
         max-height: 180px;
         margin-bottom: 29px;
     }
-    
+
     .tabs_button button {
         width: 243px;
         margin-bottom: 30px;

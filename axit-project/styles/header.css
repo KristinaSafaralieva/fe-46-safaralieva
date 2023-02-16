@@ -14,6 +14,8 @@
 
 .header_wrapper {
     display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .header_logo {
@@ -46,6 +48,7 @@
 .nav-item ul li {
     padding: 28px 30px;
     max-width: 114px;
+    color: #FFFFFF;
 }
 
 .nav-item ul li a {
@@ -55,8 +58,13 @@
     font-size: 14px;
     line-height: 19px;
     text-decoration: none;
-    color: #FFFFFF;
     background-color: transparent;
+    color: inherit;
+}
+
+.nav-item ul li:hover {
+    color: #EC7979;
+    transform: scale(1.1);
 }
 
 .burger_button {
