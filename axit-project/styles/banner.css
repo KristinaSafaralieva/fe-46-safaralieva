@@ -21,7 +21,7 @@
 .banner-content_logo {
     display: flex;
     margin-top: 208px;
-    margin-bottom: 50px;
+    margin-bottom: 51px;
 }
 
 .banner-text_title h1 {
@@ -42,6 +42,11 @@
     margin: 55px 0 42px;
 }
 
+.banner-text_desc {
+    max-width: 270px;
+    margin-bottom: 42px;
+}
+
 .banner-text_desc h5 {
     font-style: normal;
     font-weight: 400;
@@ -49,7 +54,6 @@
     line-height: 21px;
     display: flex;
     align-items: center;
-    max-width: 270px;
     color: #FFFFFF;
 }
 
@@ -65,7 +69,6 @@
     border: 2px solid #FFFFFF;
     width: 270px;
     height: 58px;
-    margin-top: 46px;
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -239,6 +242,10 @@
         margin: 41px auto 31px;
     }
     
+    .banner-text_desc {
+        margin: 0 auto 42px;
+    }
+
     .banner-text_desc h5 {
         margin: auto;
     }

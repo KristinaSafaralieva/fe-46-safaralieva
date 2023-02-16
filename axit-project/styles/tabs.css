@@ -59,14 +59,19 @@
     border: 1px solid #C6CBCD;
     border-top: none;
     display: none;
+    justify-content: space-between;
 }
 
 .rectangle-active {
     display: flex;
 }
 
-.rectangle_text-description {
-    max-width: 700px;
+.text {
+    margin-left: 100px;
+}
+
+.text_title {
+    margin-bottom: 27px;
 }
 
 .text_title h3 {
@@ -76,10 +81,8 @@
     font-size: 30px;
     line-height: 41px;
     align-items: center;
-    padding: 42px 30px 42px 100px;
+    padding: 42px 0 42px;
     color: #000000;
-    margin-right: 0px;
-    margin-bottom: 27px;
 }
 
 .text_desc h5 {
@@ -90,15 +93,14 @@
     display: flex;
     align-items: center;
     color: #000000;
-    padding: 0 30px 27px 100px;
     white-space: pre-line;
+    margin-bottom: 27px;
 }
 
 .tabs_button button {
     width: 270px;
     height: 58px;
     background-color: #EC7979;
-    margin-left: 100px;
     margin-bottom: 54px;
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
@@ -109,7 +111,7 @@
     text-transform: capitalize;
 }
 
-.rectengle_image img {
+.rectengle_image  img {
     height: 100%;
 }
 
@@ -137,11 +139,11 @@
     .rectangle_text-description {
         max-width: 594px;
         margin-right: 26px;
-        margin-left: 85px;
     }
     
     .text {
         max-width: 594px;
+        margin-left: 85px;
     }
 
     .text_title h3 {
@@ -152,7 +154,6 @@
     }
     
     .text_desc {
-        max-height: 112px;
         margin-bottom: 38px;
     }
 
@@ -171,14 +172,12 @@
     
     .rectengle_image  img {
         max-width: 397px;
-        max-height: 385px;
         margin-left: auto;
-        
     }
 }
 
 @media screen and (max-width: 960px) {
-    .rectangle_text-description {
+    .text {
         margin-left: 20px;
     }
 }
@@ -275,12 +274,12 @@
     }
 
     .rectangle_text-description {
-        max-width: 243px;
         margin: 0 21px 0 25px
     }
     
     .text {
         max-width: 243px;
+        margin: 0;
     }
 
     .text_title h3 {

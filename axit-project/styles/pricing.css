@@ -167,6 +167,10 @@
     .card:nth-child(2) {
         margin-bottom: 20px;
     }
+
+    .card {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 320px) {
