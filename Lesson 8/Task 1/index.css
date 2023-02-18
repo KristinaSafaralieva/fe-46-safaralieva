@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    max-width: 1334px;
+    margin: 0 auto;
+}
+
+.reviews_wrapper {
+    margin-top: 30px;
+    padding: 34px 50px;
+    border-radius: 15px;
+    background-color: #FBF7F6;
+    box-shadow: 4px 4px 6px -1px #767676, 
+                -4px 4px 6px -1px #767676;
+}
+
+.reviews_desc {
+    margin-bottom: 25px;
+}
+
+.reviews_desc p {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #371030;
+}
+
+.reviews_message {
+    display: flex;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.reviews_message-area {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #000000;
+    opacity: 0.5;
+    padding: 18px 0 110px 25px;
+    resize: none;
+    border: none;
+    background: #F9F0EE;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.reviews_user-infos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.reviews_user-info {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #000000;
+    opacity: 0.5;
+    padding: 6px 0 5px 25px;
+    width: 100%;
+    background: #F9F0EE;
+    border-radius: 5px;
+    border: none;
+}
+
+.reviews_user-info:nth-child(2) {
+    margin: 0 37px;
+}
+
+.send-btn {
+    display: flex;
+    align-items: center;
+}
+
+button {
+    width: 250px;
+    height: 63px;
+    background: #FFB0BA;
+    border-radius: 100px;
+    border: none;
+    letter-spacing: 0.04em;
+    color: #9A3C48;
+    margin-right: 30px;
+}
+
+button:hover {
+    box-shadow: 3px 3px 0px 3px #DE8E98;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+button span {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.checkbox-custom {
+    margin: auto 0;
+}
+
+input[type="checkbox"]:checked, 
+input[type="checkbox"]:not(:checked) {
+    position: absolute;
+    left: -9999px;
+}
+
+label {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #000000;
+    opacity: 0.5;
+}
+
+input[type="checkbox"]:checked + label, 
+input[type="checkbox"]:not(:checked) + label{
+    display: inline-block;
+    position: relative;
+    padding-left: 45px;
+    line-height: 30px;
+    cursor: pointer;
+    margin: auto 0;
+}
+
+input[type="checkbox"]:checked + label:before, 
+input[type="checkbox"]:not(:checked) + label:before {
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: #F9F0EE;
+    border-radius: 2px;
+    transform: translateY(-50%);
+}
+
+input[type="checkbox"]:checked + label:after, 
+input[type="checkbox"]:not(:checked) + label:after {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    width: 12px;
+    height: 20px;
+    border-radius: 1px;
+    border: solid #9A3C48;
+    border-width: 0 3px 3px 0;
+    transform: translateY(-50%) rotate(45deg);
+    transition: all 0.2s ease;
+}
+
+input[type="checkbox"]:not(:checked) + label:after {
+    opacity: 0;
+}
+
+@media screen and (max-width:756px) {
+    .reviews_user-infos {
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .reviews_user-info:nth-child(2) {
+        margin: 20px 0;
+    }
+}
+
+@media screen and (max-width:645px) {
+    .send-btn {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    button {
+        margin-bottom: 20px;
+    }
+}
