@@ -1,0 +1,50 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./index.css">
+    <title>Video-player</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="player">
+            <video poster="https://media.myshows.me/shows/normal/5/e0/5e04f3163d14721892985ffdd34f2100.jpg">
+                <source src="https://downloadwap.com/thumbs5/videos/film/2017/MP4/Anime/tomandjerr_IzCrMURu.mp4" type="video/mp4">
+            </video>
+            <div class="controls">
+                <div class="control-progress">
+                    <input type="range" class="progress" min="0" max="100" value="0" oninput="onVideoProgressChange(this)">
+                </div>
+                <div class="controls-btn">
+                    <div class="controls-play control" onclick="playPause(this)"></div>
+                    <div class="controls-volume control" onclick="volumeMute(this)"></div>
+                    <input type="range" class="volume-range" min="0" max="100" value="100" oninput="onVolumeRangeChange(this)">
+                    <div class="controls-setting control" onclick="onSettingClick(event, this)"></div>
+                    <div class="settings-container" onclick="event.stopPropagation()">
+                        <div class="setting-speed">
+                            <label class="settings-label" for="video-speed">Скорость</label>
+                            <select class="setting-select" name="video-speed" id="video-speed" onchange="onSpeedChange(this)">
+                                <option value="0.5">0.5</option>
+                                <option selected value="1">Обычная</option>
+                                <option value="1.5">1.5</option>
+                            </select>
+                        </div>
+                        <div class="setting-quality">
+                            <label class="settings-label" for="quality">Качество</label>
+                            <select class="setting-select" name="quality" id="quality">
+                                <option selected value="480">480p</option>
+                                <option value="720">720p</option>
+                                <option value="1080">1080p</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="controls-fullscreen control" onclick="screenChange(this)"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="./index.js"></script>
+</body>
+</html>

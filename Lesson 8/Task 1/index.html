@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="./index.css" rel="stylesheet">
+        <link href="./reset.css" rel="stylesheet">
+        <title>Lesson 8 Task 1</title>
+    </head>
+    <body>
+        <section class="reviews">
+            <div class="container">
+                <div class="reviews_wrapper">
+                    <div class="reviews_desc">
+                        <p>Оставьте свой отзыв на “Ароматическое саше”</p>
+                    </div>
+                    <form>
+                        <div class="reviews_message">
+                            <textarea class="reviews_message-area" required placeholder="Ваш отзыв*"></textarea>
+                        </div>
+                        <div class="reviews_user-infos">
+                            <input class="reviews_user-info" required type="text" placeholder="Имя*">
+                            <input class="reviews_user-info" required type="tel" placeholder="Телефон*">
+                            <input class="reviews_user-info" type="email" placeholder="Email">
+                        </div>
+                        <div class="send-btn">
+                            <button type="submit"><span>Отправить</span></button>
+                            <input class="checkbox-custom" id="checkbox_btn" type="checkbox">
+                            <label for="checkbox_btn">Сохранить моё имя, email и адрес сайта в этом браузере для последующих моих комментариев.</label>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>

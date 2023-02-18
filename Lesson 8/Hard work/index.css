@@ -1,0 +1,132 @@
+.player {
+    position: relative;
+    max-width: 600px;
+    margin: auto;
+}
+
+video {
+    width: 100%;
+}
+
+.controls {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 5px;
+    background: linear-gradient(180deg, rgba(255,255,255,0.75) 0%, rgba(255,255,255,0.75) 50%, rgba(0,0,0,0.50) 100%);
+}
+
+input[type="range"] {
+    width: 100%;
+    appearance: none;
+    background: transparent;
+    position: relative;
+}   
+
+input[type="range"]:focus {
+    outline: 0;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    appearance: none;
+    width: 10px;
+    height: 10px;
+    margin: .5px 0;
+    background: black;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+    background: transparent;
+    width: 100%;
+    height: 12px;
+    padding: 0 1px;
+    border-radius: 10px;
+    box-shadow: 
+                inset .6em 1em 10px rgba(0,0,0,.15),
+                inset -.6em -1em 10px rgba(255, 255, 255, .415);
+}
+
+.volume-range {
+    max-width: 100px;
+}
+
+.controls-btn {
+    display: flex;
+    width: 100%;
+}
+
+.control {
+    width: 25px;
+    height: 25px;
+    background-size: 25px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.control:hover {
+    transform: scale(1.3);
+}
+
+.controls-play {
+    background-image: url(./controls/media-play.svg);
+}
+
+.controls-pause {
+    background-image: url(./controls/media-pause.svg);
+}
+
+.controls-volume {
+    background-image: url(./controls/speaker-wave-2.svg);
+}
+
+.controls-mute {
+    background-image: url(./controls/speaker-xmark.svg);
+}
+
+.settings-container {
+    max-width: 200px;
+    max-height: 100px;
+    display: none;
+    position: absolute;
+    right: 0;
+    bottom: 50px;
+    background: linear-gradient(180deg, rgba(255,255,255,0.75) 0%, rgba(255,255,255,0.75) 50%, rgba(0,0,0,0.50) 100%);
+}
+
+.setting-speed, .setting-quality {
+    display: flex;
+    padding: 5px;
+    align-items: center;
+}
+
+.settings-label {
+    font-size: 14px;
+    line-height: 16px;
+    margin-right: 5px;
+}
+
+.setting-select {
+    display: flex;
+    flex-grow: 1;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+.controls-setting-active + .settings-container {
+    display: block;
+}
+
+.controls-setting {
+    background-image: url(./controls/gear.svg);
+    margin-left: auto;
+}
+
+.controls-fullscreen {
+    background-image: url(./controls/fullscreen-alt.svg);
+}
