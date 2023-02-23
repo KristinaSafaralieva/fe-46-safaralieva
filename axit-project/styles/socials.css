@@ -85,22 +85,22 @@
     }
 
     .socials_text_title {
-    display: flex;
-    justify-content: center;
+        display: flex;
+        justify-content: center;
     }
 
     .socials_text_desc {
-    text-align: center;
+        text-align: center;
     }
 
     .socials_icons {
-        margin: auto;
+        margin: 0 auto 20px;
     }
 }
 
 @media  screen and (max-width: 480px) {
     .socials_icon a img {
-        max-width: 44px;
+        max-width: 35px;
     }
 }
 

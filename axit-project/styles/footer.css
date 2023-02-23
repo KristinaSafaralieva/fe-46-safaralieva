@@ -41,6 +41,12 @@ footer {
     }
 }
 
+@media screen and (max-width:480px) {
+    .footer_socials-icon a img {
+        max-width: 35px;
+    }
+}
+
 @media screen and (max-width:320px) {
     .footer_wrapper {
         padding: 35px 0 45px;

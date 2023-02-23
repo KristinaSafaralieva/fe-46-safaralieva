@@ -113,6 +113,7 @@
     line-height: 25px;
     color: #ffffff;
     text-transform: capitalize;
+    border: none;
 }
 
 .rectengle_image  img {
