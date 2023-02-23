@@ -126,4 +126,8 @@
     .socials_icon a img {
         max-width: 26px;
     }
+
+    .socials_icons {
+        margin: 0 auto;
+    }
 }
