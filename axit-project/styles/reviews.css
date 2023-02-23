@@ -111,6 +111,20 @@
     display: none;
 }
 
+
+.slider_controls_button {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    padding: 0;
+    background-color: transparent;
+    border: 2px solid #86878B;
+}
+
+.slider_controls_button-active {
+    background-color: #86878B;;
+}
+
 @media screen and (max-width: 1024px) {
     .reviews_wrapper {
         padding: 50px 0 57px;
@@ -254,18 +268,5 @@
         display: flex;
         justify-content: space-evenly;
         align-items: center;
-    }
-
-    .slider_controls_button {
-        width: 10px;
-        height: 10px;
-        border-radius: 100%;
-        padding: 0;
-        background-color: transparent;
-        border: 2px solid #86878B;
-    }
-
-    .slider_controls_button-active {
-        background-color: #86878B;;
     }
 }
