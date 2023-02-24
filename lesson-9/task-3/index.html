@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./index.css">
+    <title>Rest</title>
+</head>
+<body>
+    <header class="filters-part">
+        <div class="filters-part_wrapper">
+            <a class="filter-btn active" data-filter="0" onclick="onFilterBtnClick(this)">
+                <img class="filter-btn_image" src="./ico/free-icon-cat-4082056.png" alt="cat">
+                <span> Звук мурчания кота</span>
+            </a>
+            <a class="filter-btn" data-filter="1" onclick="onFilterBtnClick(this)">
+                <img class="filter-btn_image" src="./ico/free-icon-night-7614507.png" alt="night">
+                <span>Звуки ночи</span> 
+            </a>
+            <a class="filter-btn" data-filter="2" onclick="onFilterBtnClick(this)">
+                <img class="filter-btn_image" src="./ico/free-icon-rain-2167520.png" alt="rain">
+                <span>Звуки дождя</span> 
+            </a>
+            <a class="filter-btn" data-filter="3" onclick="onFilterBtnClick(this)">
+                <img class="filter-btn_image" src="./ico/free-icon-forest-4559800.png" alt="forest">
+                <span>Звуки леса</span>
+            </a>
+            <a class="filter-btn" data-filter="4" onclick="onFilterBtnClick(this)">
+                <img class="filter-btn_image" src="./ico/free-icon-waves-4583115.png" alt="sea">
+                <span>Звуки моря</span>
+            </a>
+            <a class="filter-btn" data-filter="5" onclick="onFilterBtnClick(this)">
+                <img class="filter-btn_image" src="./ico/free-icon-river-5132814.png" alt="river">
+                <span>Звуки реки в лесу</span> 
+            </a>
+        </div>
+    </header>
+    <div class="views">
+        <div class="views-part">
+            <div class="video-list">
+                <video autoplay plausinline loop class="video">
+                    <source src="https://vod-progressive.akamaized.net/exp=1677292707~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F1183%2F19%2F480916085%2F2150640058.mp4~hmac=cfd964d69afeff43a4ca8ec488ef1ca047071e05f4fd3cc2b497b7da543beb49/vimeo-prod-skyfire-std-us/01/1183/19/480916085/2150640058.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="audio-list">
+                <audio autoplay plaisinline loop class="audio">
+                    <source src="https://7oom.ru/audio/naturesounds/09%20Cat%20(7oom.ru).mp3" type="audio/mp3">
+                </audio>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="./index.js"></script>
+</body>
+</html>
