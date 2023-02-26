@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap');
+
+body {
+    background-image: url(./images/background.svg);
+    background-color: #000000;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+}
+
+.images {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.images_wrapper {
+    display: flex;
+    width: 80%;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.image-animal {
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    height: 100%;
+    width: 20%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 800ms cubic-bezier(.19, 1, .22, 1);
+}
+
+.image-animal:hover {
+    width: 100%;
+}
+
+.image-animal p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-family: Montserrat, sans-serif;
+    color: #FFFFFF;
+    font-size: 30px;
+    line-height: 38px;
+    font-weight: 400;
+    opacity: 0;
+    transition: all 800ms cubic-bezier(.19, 1, .22, 1);
+}
+
+.image-animal p:hover {
+    opacity: 1;
+}
+
+.image-bear {
+    background-image: url(./images/bear.jpeg);
+}
+
+.image-gorilla {
+    background-image: url(./images/gorila.jpeg);
+}
+
+.image-elephant {
+    background-image: url(./images/elephant.jpeg);
+}
+
+.image-lion {
+    background-image: url(./images/lion.jpeg);
+}
+
+.image-horse {
+    background-image: url(./images/horse.jpeg);
+}
