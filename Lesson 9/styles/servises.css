@@ -1,0 +1,111 @@
+.servises_wrapper {
+    padding: 59px 20px 26px 40px;
+}
+
+.servises_title h2 {
+    margin-bottom: 18px;
+}
+
+.servises_title h2 {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 36px;
+    color: var(--storm-text-color);
+}
+
+.servises_description p {
+    max-width: 936px;
+    margin-bottom: 60px;
+}
+
+.servises_description p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: var(--lynch-text-color);
+}
+
+.servises_cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.servises_card {
+    max-width: 300px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px 20px 0;
+}
+
+.card_icon {
+    width: 60px;
+    height: 60px;
+}
+
+.card_icon img {
+    width: 100%;
+}
+
+.card_text {
+    margin-left: 20px;
+}
+
+.card_text-title {
+    margin-bottom: 7px;
+}
+
+.card_text-title h4 {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 18px;
+    color: var(--storm-text-color);
+}
+
+.card_text-desc {
+    max-width: 220px;
+}
+
+.card_text-desc p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    text-align: justify;
+    color: var(--lynch-text-color);
+}
+
+@media screen and (max-width: 768px) {
+    .servises_wrapper {
+        padding: 39px 20px 64px 40px;
+    }
+    
+    .servises_description p {
+        margin-bottom: 28px;
+    }
+
+    .servises_cards {
+        justify-content: space-between;
+    }
+
+    .servises_card {
+        margin: 0 10px 39px 0;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .servises_wrapper {
+        padding: 25px 30px 15px;
+    }
+
+    .servises_description p {
+        margin-bottom: 25px;
+    }
+
+    .servises_card {
+        margin-bottom: 15px;
+    }
+}
